@@ -1,0 +1,26 @@
+li {
+  font-family: Roboto, Arial;
+  font-size: 30px;
+  margin-left: 60px;
+  margin-right: 50px;
+  line-height: 50px;
+}
+
+.description {
+  font-size: 30px;
+  margin-left: 60px;
+  margin-right: 50px;
+  padding-top: 50px;
+}
+
+.date {
+  margin-left: 90px;
+}
+
+.date2 {
+  margin-left: 130px;
+}
+
+.buffer {
+  padding-bottom: 220px;
+}
