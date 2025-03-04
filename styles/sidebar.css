@@ -2,9 +2,9 @@
   position: fixed;
   left: 0;
   bottom: 0;
-  top: 123px;
+  top: 125px;
   width: 135px;
-  background-color: rgb(122, 204, 252);
+  background-color: rgb(238, 238, 238);
 
   border-right-width: 1px;
   border-right-style: solid;
@@ -25,6 +25,6 @@
 
 .sidebar-link:hover {
   /* background-color: rgb(6, 115, 62); */
-  color: white;
+  color: rgb(5, 67, 238);
   cursor: pointer
 }
