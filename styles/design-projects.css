@@ -1,18 +1,52 @@
-li {
-  font-family: Roboto, Arial;
-  font-size: 20px;
-  margin-left: 60px;
-  margin-right: 50px;
-  line-height: 35px;
+/* Reset default margin and padding */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.description {
-  font-size: 30px;
-  margin-left: 60px;
-  margin-right: 50px;
-  padding-top: 20px;
+
+/* Container for image boxes */
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px; /* Space between boxes */
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto; 
 }
 
-.buffer {
-  padding-bottom: 25px;
+/* Image box styling */
+.image-box {
+  background-color: #e5e5f7; /* Light background */
+  padding: 10px;
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  height: 150px;
+  width: 150px;
+}
+
+/* Hover effect */
+.image-box:hover {
+  transform: scale(1.05);
+}
+
+/* Image styling */
+.image-box img {
+  width: 100%; /* Ensure image fills box */
+  height: 90%;
+  object-fit: fill; /* Forces the image to stretch and ignore aspect ratio */
+  display: block;
+  border-radius: 5px;
+}
+
+.image-box p {
+  margin-top: 4px; /* Adds space between image and text */
+  font-size: 14px; /* Adjusts text size */
+  color: #333; /* Sets text color */
+  font-weight: bold; /* Makes text bold */
+  text-align: center; /* Centers text explicitly */
+  width: 100%; /* Ensures text takes full width */
 }
