@@ -22,3 +22,7 @@ li {
 .buffer {
   padding-bottom: 265px;
 }
+
+body {
+  visibility: hidden;
+}
