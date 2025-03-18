@@ -14,5 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
             if (designLink) {
                 designLink.style.backgroundColor = designBgColor;
             }
+            document.body.style.visibility = "visible"; // Make visible after loading
         });
 });

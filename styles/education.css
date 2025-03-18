@@ -30,3 +30,7 @@ li {
 .buffer {
   padding-bottom: 220px;
 }
+
+body {
+  visibility: hidden;
+}
