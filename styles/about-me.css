@@ -52,3 +52,7 @@
 .link:hover {
   text-decoration: underline;
 }
+
+body {
+  visibility: hidden;
+}

@@ -50,3 +50,7 @@
   text-align: center; /* Centers text explicitly */
   width: 100%; /* Ensures text takes full width */
 }
+
+body {
+  visibility: hidden;
+}
