@@ -34,3 +34,7 @@ li {
 .buffer {
   padding-bottom: 24px;
 }
+
+body {
+  visibility: hidden;
+}
