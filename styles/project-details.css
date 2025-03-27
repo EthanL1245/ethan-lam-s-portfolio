@@ -7,10 +7,10 @@
 li {
   font-family: Roboto, Arial;
   font-size: 20px;
-  margin-left: 60px;
+  margin-left: 100px;
   margin-right: 50px;
   line-height: 35px;
-  color :blue;
+  color :black;
 }
 
 .description {
@@ -22,6 +22,37 @@ li {
 
 .buffer {
   padding-bottom: 155px;
+}
+
+.click {
+  padding-bottom: 40px;
+  text-align: left;
+  font-size: 45px;
+  margin-left: 10px;
+}
+
+.link {
+  color: blue;
+  font-size: 20px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+details {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 60px;
+  font-size: 30px;
+}
+
+.picture-grid {
+  display: grid;
+  grid-template-columns: .2fr 2fr .2fr;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 50%
 }
 
 body {
